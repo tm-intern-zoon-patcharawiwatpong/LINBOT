@@ -12,7 +12,6 @@ Docker for web handler in LineOA chat
   - [Environment Variables](#environment-variables)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -65,8 +64,14 @@ The defualt port is on `localhost:8000`. But I recommend using docker to run thi
 docker build -t msg-line-app .
 docker run -p 8000:8000 --name msg-line-app msg-line-app
 ```
-Which all are expose on `localhost:8000`.
+Which all are expose on `localhost:8000`
 
+## Contributing
+If you'd like to contribute to this project, please follow these guidelines:
 
-
-
+Fork the repository
+Create a new branch (`git checkout -b feature-branch`)
+Make your changes
+Commit your changes (`git commit -am 'Add new feature'`)
+Push to the branch (`git push origin feature-branch`)
+Create a new Pull Request
